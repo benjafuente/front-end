@@ -1,0 +1,27 @@
+.evernote-hero {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+    color: #f1f8e9;
+}
+
+.text-box {
+    background-color: #ffffff;
+    color: #333333; 
+    border-left: 5px solid #81c784; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px; 
+    }
+}
+
+#review-text, #carousel-title, #carousel-text {
+    transition: opacity 0.3s ease-in-out;
+}
+
